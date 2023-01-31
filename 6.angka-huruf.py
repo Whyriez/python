@@ -4,7 +4,7 @@ print()
  
 x = input('Input sebuah angka/huruf : ')
  
-if (x.isalpha()):
+if (x.isalpha()): #jika inputan merupakan huruf tanpa angka maka tampilkan
   print(x,'adalah bilangan huruf')
-else:
+else: #jika merupakan angka maka
   print(x,'adalah bilangan angka');
