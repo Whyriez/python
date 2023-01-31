@@ -4,8 +4,8 @@ print()
  
 x = input('Input sebuah angka : ')
  
-if (x.isdecimal()):
+if (x.isdecimal()): #jika bilangan merupakan bilangan desimal tanpa . (0.0)
    print(x,'adalah bilangan bulat')
-else:
+else: 
      print(x,'adalah bilangan pecahan')
  
